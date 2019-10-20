@@ -18,7 +18,8 @@ body {
 section{
     width: 100%;
     height: 200vh;
-
+border-bottom: black solid;
+background-color: black;
 }
 .container {
 	display: grid;

@@ -6,7 +6,7 @@ nav#dot-nav {
 }
 
 nav#dot-nav a {
-    border: 1px solid #121212;
+    border: 1px solid white;
     border-radius: 50%;
     width: 8px;
     height: 8px;
@@ -15,7 +15,7 @@ nav#dot-nav a {
 }
 
 nav#dot-nav a.active, nav#dot-nav a:first-child {
-    background: #121212;
+    background: yellow;
 }
 
 a#dot-0.dots {
