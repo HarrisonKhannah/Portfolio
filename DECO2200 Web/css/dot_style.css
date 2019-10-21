@@ -1,0 +1,29 @@
+:root {
+  --main-left-gradient: #43CEA2;
+  --main-right-gradient: #185A9D;
+
+}
+
+
+nav#dot-nav {
+    position: fixed;
+    right: 50px;
+bottom: 100px;
+    transform: scale(3)
+}
+
+nav#dot-nav a {
+    border: 0.5px solid white;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    display: block;
+    margin: 10px;
+}
+
+nav#dot-nav a.active, nav#dot-nav a:first-child {
+  background-image: linear-gradient(#43CEA2, #185A9D);}
+
+a#dot-0.dots {
+  display: none;
+}
