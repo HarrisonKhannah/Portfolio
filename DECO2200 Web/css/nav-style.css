@@ -7,26 +7,27 @@
   list-style: none;
   text-decoration: none;
 
-
 }
+
 
 a{
   background-color: #2D2D2D;
 }
 .wrapper {
-  position: fixed;
+  position: sticky;
   left: 85%;
-  top: 5%;
+  top: 105vh;
   width: 14%;
   font-weight: 500;
   font-family: 'Monsterrat', sans-serif;
-
+z-index: 99999;
 }
 .menu {
   width: 100%;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  z-index: 99999;
 
 }
 
