@@ -21,15 +21,20 @@ a{
   background-color: #2D2D2D;
 }
 .wrapper {
-  position: fixed;
-  float: right;
-  left: 85%;
-  top: 105vh;
+position: sticky;
+top: 5%;
+ right: 10%;
   width: 14%;
   font-weight: 500;
   font-family: 'Monsterrat', sans-serif;
-z-index: 99999;
+  z-index: 99999;
+  margin-top: 20px;
+  float: right;
 }
+
+
+
+
 .menu {
   width: 100%;
   border-radius: 10px;
