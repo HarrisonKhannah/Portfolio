@@ -10,40 +10,9 @@
 	--color-text-h3: #353535;
 	--color-text-h4: #404040;
 	--color-highlight: #aaa;
-	--color-bg: #292929;
-}
-body{
-	background-color: #292929
+	--color-bg: #F5F5F5;
 }
 
-.test{
-  font-size: 1.4em;
-
-   font-style:italic;
-   color: #555555;
-   padding:1.2em 30px 1.2em 75px;
-   border-left:8px solid #78C0A8 ;
-   line-height:1.6;
-   position: relative;
-   background:#EDEDED;
-
- }
-.test:before, .test:after{
- color:#78C0A8;
- font-size:4em;
- /* position: absolute; */
- left: 10px;
- top:-10px;
-}
-
-
-.test::before{
-  content: "\201C";
-}
-
-.test::after{
-  content: "\201D";
-}
 
 
 #myVideo {
@@ -100,22 +69,21 @@ min-width: 100%;
 	height: 300vh;
 }
 
-
-
-
-/* The elements themselves */
-.overall_box_container{
+/* Container for elements */
+.content_area{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
 
-box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.42);
+/* The elements themselves */
+.overall_box_container{
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 width:70%;
 margin: 30px 0px;
 display: flex;
 flex-direction: row;
 border-radius: 10px;
-background-color: #464646
 }
 
 /* Text Entities within said element  */
@@ -124,25 +92,20 @@ background-color: #464646
 	font-weight: 500;
 	font-size: 2em;
 	margin-top: 10px;
-	letter-spacing: 2px;
+	letter-spacing: 2%;
 	padding-left: 50px;
 	padding-top: 50px;
 	padding-bottom: 10px;
-	color: white;
 
 }
 
 .overaching_para{
 	font-family: 'Source Sans Pro', sans-serif;
-	font-weight: 300;
-	font-size: 1.2em;
+	font-weight: 400i;
+	font-size: 1em;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-left: 50px;
 	margin-bottom: 50px;
-	color: white;
-}
-
-.text_report{
-	text-align: left;
+	color: grey
 }
