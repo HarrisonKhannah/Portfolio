@@ -8,8 +8,11 @@ display: none;
 }
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> parent of 8764dcb... update
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +21,10 @@ display: none;
 
 }
 
+
+a{
+  background-color: #2D2D2D;
+}
 .wrapper {
 position: sticky;
 top: 5%;
@@ -148,7 +155,7 @@ top: 5%;
 }
 
 
-
+}
 
 @media only screen and (max-width:500px) {
   .wrapper {
