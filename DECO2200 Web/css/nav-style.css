@@ -4,10 +4,8 @@
 
 
 ::-webkit-scrollbar {
-display: none;
+
 }
-
-
 .test{
   font-size: 1.4em;
    font-style:italic;

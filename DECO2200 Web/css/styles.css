@@ -91,6 +91,23 @@ background-color: #464646;
 border-left: 9px solid rgba(67, 206, 162,0.8);
 }
 
+.general_box_content{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	padding: 20px;
+	margin-top: 50px;
+	border-left: 9px solid rgba(67, 206, 162,0.8);
+	margin-right: 20px;
+}
+
+.general_box_content p {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	font-size: 1.1em;
+	color: white;
+}
 /* Text Entities within said element  */
 .overarching_header{
 	font-family: 'Montserrat', sans-serif;
@@ -140,8 +157,9 @@ border-left: 9px solid rgba(67, 206, 162,0.8);
 	font-size: 1.2em;
 }
 
-.report_content_div{
-	margin: 40px 0px;
+.function_grid{
+	display: flex;
+	flex-direction: row;
 }
 
 .report_content h1{
@@ -155,7 +173,7 @@ border-left: 9px solid rgba(67, 206, 162,0.8);
 
 .report_content h2{
 	font-family: 'Monsterrat', sans-serif;
-	font-size: 1.2em;
+	font-size: 1.9em;
 	font-weight: 600;
 	color: rgba(67, 206, 162);
 	margin-top: 50px;
@@ -164,7 +182,7 @@ border-left: 9px solid rgba(67, 206, 162,0.8);
 
 .report_content h3{
 	font-family: 'Monsterrat', sans-serif;
-	font-size: 1em;
+	font-size: 1.6em;
 	font-weight: 500;
 	color: rgba(67, 206, 162);
 	margin-top: 50px;
@@ -185,9 +203,16 @@ margin-bottom: 20px;
 margin-top: 20px;
 }
 
+/* Spans Used */
+
 #strong_li{
 font-weight: 600;
-text-decoration:
+text-decoration: underline;
+}
+
+#question_iteration{
+	font-weight: 600;
+	font-style: italic;
 }
 
 
@@ -201,6 +226,8 @@ text-decoration:
 	gap: 5em;
 }
 
+
+
 /* Grid Section Elements Second */
 .report_content_grid_second{
 	display:grid;
@@ -210,6 +237,23 @@ text-decoration:
 	/* margin: 30px; */
 	gap: 5em; }
 
+
+.method_report_section{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.iteration_function_grid{
+	display:grid;
+	grid-template-areas:
+	 1fr 1fr 1fr 1fr
+	 1fr 1fr 1fr 1fr
+	 1fr 1fr 1fr 1fr
+	 
+	 ;
+
+}
 
 
 .report_content_grid_second h3{
@@ -258,6 +302,9 @@ text-decoration:
 	margin-top: 20px;
 }
 
+
+/* Methods people */
+
 /* Div Encasing all grid text */
 .report_content_grid_text{
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
@@ -268,9 +315,17 @@ text-decoration:
 
 }
 
+
+
 /* Photo Elements */
+
+.image_container{
+	display: flex;
+
+}
+
 .report_photo{
 	margin-top: 40px;
-	margin-right: 30px;
+	margin-right: 50px;
 	box-shadow: 0 14px 28px rgba(0,0,0,3), 0 10px 10px rgba(0,0,0,3);
 }
