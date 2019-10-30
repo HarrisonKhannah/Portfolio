@@ -52,7 +52,7 @@ display: none;
 .wrapper {
 position: sticky;
 top: 5%;
- right: 2%;
+ right: .1%;
   width: 14%;
   font-weight: 500;
   font-family: 'Monsterrat', sans-serif;
