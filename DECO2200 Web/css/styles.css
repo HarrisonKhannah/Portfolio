@@ -100,6 +100,7 @@ border-left: 9px solid rgba(67, 206, 162,0.8);
 	margin-top: 50px;
 	border-left: 9px solid rgba(67, 206, 162,0.8);
 	margin-right: 20px;
+	margin-left: 50px;
 }
 
 .general_box_content p {
@@ -185,7 +186,6 @@ border-left: 9px solid rgba(67, 206, 162,0.8);
 	font-size: 1.6em;
 	font-weight: 500;
 	color: rgba(67, 206, 162);
-	margin-top: 50px;
 }
 
 
@@ -222,7 +222,7 @@ text-decoration: underline;
 	width: 70%;
 	grid-template-columns: 1fr 1fr;
 	align-items: center;
-	/* margin: 30px; */
+	margin: 30px;
 	gap: 5em;
 }
 
@@ -250,7 +250,7 @@ text-decoration: underline;
 	 1fr 1fr 1fr 1fr
 	 1fr 1fr 1fr 1fr
 	 1fr 1fr 1fr 1fr
-	 
+
 	 ;
 
 }
@@ -312,7 +312,7 @@ text-decoration: underline;
 	background-color: #464646;
 	border-left: 9px solid rgba(67, 206, 162,0.8);
 	padding: 30px;
-
+	width: 30vw;
 }
 
 
@@ -326,6 +326,6 @@ text-decoration: underline;
 
 .report_photo{
 	margin-top: 40px;
-	margin-right: 50px;
+	/* margin-right: 50px; */
 	box-shadow: 0 14px 28px rgba(0,0,0,3), 0 10px 10px rgba(0,0,0,3);
 }
