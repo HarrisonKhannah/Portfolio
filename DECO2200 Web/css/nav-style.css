@@ -10,22 +10,24 @@ display: none;
 
 .test{
   font-size: 1.4em;
-   /* width: */
-   /* margin-left:50px auto; */
    font-style:italic;
    color: #555555;
    padding:1.2em 30px 1.2em 75px;
    line-height:1.6;
-   position: relative;
+   /* position: relat ive; */
    background:#EDEDED;
-
  }
+
+
+ .test span{
+   font-size: 0.9em;
+   font-style: italic;
+ }
+
 .test:before, .test:after{
  color:#78C0A8;
- font-size:4em;
- /* position: absolute; */
- left: 10px;
- top:-10px;
+ font-size:3em;
+ position: relative;
 }
 
 
@@ -50,7 +52,7 @@ display: none;
 .wrapper {
 position: sticky;
 top: 5%;
- right: 10%;
+ right: 2%;
   width: 14%;
   font-weight: 500;
   font-family: 'Monsterrat', sans-serif;
