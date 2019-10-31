@@ -7,7 +7,7 @@
 	--color-text: #252525;
 	--color-text-h1: #ffffff;
 	--color-text-h2: #303030;
-	--color-text-h3: #353535;
+	--color-text-: #353535;
 	--color-text-h4: #404040;
 	--color-highlight: #aaa;
 	--color-bg: #F5F5F5;
@@ -103,12 +103,15 @@ border-left: 9px solid rgba(67, 206, 162,0.8);
 	margin-left: 50px;
 }
 
+
+
+
 .general_box_content p {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 200;
 	font-size: 1.1em;
 	color: white;
-	margin-top: 20px;
+	/* margin-top: 20px; */
 
 }
 /* Text Entities within said element  */
@@ -190,8 +193,7 @@ border-left: 9px solid rgba(67, 206, 162,0.8);
 	font-size: 1.6em;
 	font-weight: 500;
 	color: rgba(67, 206, 162);
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 
 
 }
@@ -200,7 +202,6 @@ border-left: 9px solid rgba(67, 206, 162,0.8);
 .report_content p{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1em;
-	margin-top: 7px;
 }
 
 .report_content li{
@@ -221,6 +222,10 @@ text-decoration: underline;
 #question_iteration{
 	font-weight: 600;
 	font-style: italic;
+}
+
+.para_report{
+margin: 50px 0px;
 }
 
 
@@ -252,6 +257,14 @@ text-decoration: underline;
 
 }
 
+
+.survery_grid{
+	display:grid;
+	grid-template-columns: 1fr;
+
+}
+
+
 .method_report_section_new{
 	display:grid;
 	grid-template-columns: 0.5fr 0.5fr;
@@ -264,9 +277,12 @@ text-decoration: underline;
 	grid-template-areas:
 	 1fr 1fr 1fr 1fr
 	 1fr 1fr 1fr 1fr
-	 1fr 1fr 1fr 1fr
+	 1fr 1fr 1fr 1fr;
 
-	 ;
+
+	 margin-bottom: 40px;
+
+
 
 }
 
@@ -333,6 +349,9 @@ text-decoration: underline;
 
 
 /* Photo Elements */
+
+.image_flex{
+text-align: center;}
 
 .image_container{
 	display: flex;
