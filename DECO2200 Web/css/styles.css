@@ -97,14 +97,21 @@ border-left: 9px solid rgba(67, 206, 162,0.8);
 	font-size: 1em;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 	padding: 20px;
-	margin-top: 50px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	border-left: 9px solid rgba(67, 206, 162,0.8);
 	margin-right: 20px;
 	margin-left: 50px;
 }
 
+#error{
+	border-left: 9px solid rgba(247, 74, 90, 1);
+}
 
 
+#min_error{
+	border-left: 9px solid rgba(245, 166, 35, 1);
+}
 
 .general_box_content p {
 	font-family: 'Source Sans Pro', sans-serif;
@@ -148,7 +155,9 @@ border-left: 9px solid rgba(67, 206, 162,0.8);
 	padding-right: 50px;
 	padding-left: 50px;
 	margin-bottom: 50px;
-	color: white
+	color: white;
+	line-height: 1.6em;
+
 
 }
 
@@ -193,7 +202,8 @@ border-left: 9px solid rgba(67, 206, 162,0.8);
 	font-size: 1.6em;
 	font-weight: 500;
 	color: rgba(67, 206, 162);
-	margin-bottom: 40px;
+	margin-bottom: 30px;
+	margin-top: 30px;
 
 
 }
@@ -202,6 +212,9 @@ border-left: 9px solid rgba(67, 206, 162,0.8);
 .report_content p{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1em;
+	line-height: 1.6em;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 
 .report_content li{
@@ -216,7 +229,7 @@ margin-top: 20px;
 
 #strong_li{
 font-weight: 600;
-text-decoration: underline;
+/* text-decoration: underline; */
 }
 
 #question_iteration{
@@ -287,6 +300,13 @@ margin: 50px 0px;
 }
 
 
+.caption{
+	margin-top: 50px;
+	text-align: left;
+	margin-bottom: 50px;
+}
+
+
 .report_content_grid_second h3{
 	font-family: 'Monsterrat', sans-serif;
 	font-size: 1.4em;
@@ -331,6 +351,8 @@ margin: 50px 0px;
 	font-weight: 200;
 	font-size: 1.2em;
 	margin-top: 20px;
+	line-height: 1.6em;
+
 }
 
 
