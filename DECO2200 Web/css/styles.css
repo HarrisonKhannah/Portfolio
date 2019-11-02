@@ -289,9 +289,8 @@ margin: 50px 0px;
 .method_report_section{
 	display:grid;
 	grid-template-columns: 1fr 1fr;
-
+	margin: 40px 0px;
 }
-
 
 .survery_grid{
 	display:grid;
