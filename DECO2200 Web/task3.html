@@ -59,24 +59,29 @@
 
 
 
+<!-- Video Playback from https://www.w3schools.com/howto/howto_css_fullscreen_video.asp -->
+  <video autoplay muted loop id="myVideo">
+    <source src="img/sample.mp4" type="video/mp4">
+  </video>
 
 
   <div class="content">
     <h1 class="video_header">Welcome to Comm-It</h1>
     <p class="video_caption">The modern gambling regulation solution</p>
-  <button href=".wrapper" class=call_to_action> Dive In </button>
+<a href = "#research">    <button class=call_to_action> Dive In </button> </a>
   </div>
 
 
 
 
+<!-- Nav Element, with nav_styles css sheet from https://codepen.io/sabina_abbasova/pen/JjPwWWN -->
   <section class=research_area>
     <div class="wrapper">
       <nav>
         <div class="menu">
           <li class="item" id="research">
             <a href="#research" class="btn"><i class="fas fa-research"></i>Research</a>
-            <div class="sm-menu">
+            <div class="sm-menu" id = "place">
               <a href="#design_problem">The Design Problem</a>
               <a href="#stakeholder_analysis">Our Stakeholder Analysis</a>
             </div>
@@ -265,6 +270,7 @@
           <h1> Alt Fun </h1>
 
           <section id=research_container class=overall_box_container>
+            <!-- https://codepen.io/cliftwalker/pen/XJaEXY HTML and CSS Quote element from -->
             <blockquote data-aos="fade-right" data-aos-delay="100" class=test>
               <p> <q>
                   “I see my mates getting involved and I’m getting bored of just watching, I might just feel inclined to try my luck” </q> </p>
@@ -385,17 +391,6 @@
               restoration in a committal card and reduce comfort?
               <br><br>
               The com-it ideated on the problem but settled on the idea that took inspiration from the previous research report, specifically the interview with Jackie.
-            </p>
-
-            <h2> Why we didn’t follow through with this concept: </h2>
-            <p>
-              The reason that the involve system wasn’t selected as a chosen space, was due to the lack of viability in the sense of governmental regulation industry regulation and the infringement of civil liberties, in other words: it breaches on
-              our unnegotiable areas. If the device were to alter its UI, all pubs would need to implement this, or specific pubs would be disadvantaged. Likewise, the lack of complete understanding into when this problem can be identified causes
-              conflict; the user may not believe they have a problem, but the family might, if the family restricts the user due to this. <br><br> This can be seen as an act against the civil liberties of the user and cause an area for manipulation.
-              However, the concept of increased family communication was carried through into the final solution space. Increased visibility of problematic behaviour to the family, likewise, a direct chain of communication was updated into the final
-              solution.
-
-
             </p>
 
 
@@ -929,7 +924,7 @@
               language” ("User Interface Design Basics", 2019).
             </p>
           </div>
-          <div> <img class=report_photo id=conditioning_info src="img/diagrams/5.png" width=520px;> </div>
+          <div> <img class=report_photo id=conditioning_info src="img/diagrams/2.png" width=620px;> </div>
 
         </section>
 
@@ -952,7 +947,7 @@
               being too small for longer messages.
             </p>
           </div>
-          <div> <img class=report_photo id=conditioning_info src="img/diagrams/6.png" width=520px;> </div>
+          <div> <img class=report_photo id=conditioning_info src="img/diagrams/6.png" width=620px;> </div>
 
         </section>
 
@@ -965,29 +960,7 @@
         </p>
 
 
-        <section class=method_report_section_new>
-          <div class=general_box_content>
-            <img class=report_photo id=conditioning_info src="img/diagrams/5.png" width=320px;>
-          </div>
-          <div class=general_box_content>
-            <img class=report_photo id=conditioning_info src="img/diagrams/5.png" width=320px;>
-          </div>
-          <div class=general_box_content>
-            <img class=report_photo id=conditioning_info src="img/diagrams/5.png" width=320px;>
-          </div>
-          <div class=general_box_content>
-            <img class=report_photo id=conditioning_info src="img/diagrams/5.png" width=320px;>
-          </div>
-          <div class=general_box_content>
-            <img class=report_photo id=conditioning_info src="img/diagrams/5.png" width=320px;>
-          </div>
-          <div class=general_box_content>
-            <img class=report_photo id=conditioning_info src="img/diagrams/5.png" width=320px;>
-          </div>
 
-
-
-        </section>
         <br><br>
         <p> The final design implemented our design principles, however, to ensure more efficient usability and content discovery, we altered the header, and rearranged the elements based off the engagement diagram.
 
@@ -1012,9 +985,11 @@
 
 
         <h1> The Testing </h1>
-        <div class=general_box_content>
-        <iframe src="https://marvelapp.com/5acdbfg?emb=1&iosapp=false&frameless=true" width="395" height="556" allowTransparency="true" frameborder="0"></iframe>
-        <iframe src="https://marvelapp.com/45j76ea?emb=1&iosapp=false&frameless=false" width="452" height="901" allowTransparency="true" frameborder="0"></iframe>
+        <div class=general_box_content id = testing_div>
+        <div>  <h2> Wearable </h2>
+        <iframe src="https://marvelapp.com/5acdbfg?emb=1&iosapp=false&frameless=true" width="395" height="556" margin-left allowTransparency="true" frameborder="0"></iframe> </div>
+    <div>    <h2> Application </h2>
+        <iframe src="https://marvelapp.com/45j76ea?emb=1&iosapp=false&frameless=false" width="452" height="901" allowTransparency="true" frameborder="0"></iframe> </div>
 </div>
         <div class=general_box_content>
 
@@ -1025,7 +1000,7 @@
             <span id=strong_li> Feedback objectives:</span>
             <br><br>
             <ol>
-              <ul> Has our product reduced alcohol related violence? </ul> <br><br>
+              <li> Has our product reduced alcohol related violence? </li> <br><br>
               <li> Have we used the right principles to increase accessibility? </li> <br><br>
               <li> How will the implementation of limits effect our user? </li> <br><br>
               <li> How can we ensure users won’t break – is it viable? </li> <br><br>
@@ -1034,14 +1009,20 @@
 
             <span id=strong_li> Core objectives:</span>
             <br><br>
+<ol>
+    <li>      <ol> <li>  What was done well?<br><br> </li>
+    <li>      <li>  What was done poorly?<br><br> </li> </ol>
 
-            What was done well?<br><br>
-            What was done poorly?<br><br>
+  </oL>
 
-            <span id=strong_li> Prototype selection: </span> <br><br> This round implemented a paper prototype, this allowed us to test our concept and ‘fail fast’.
+            <span id=strong_li> Prototype selection: </span> <br><br> <ol> <li> This round implemented a paper prototype, this allowed us to test our concept and ‘fail fast’. </li> </ol>
 
           </p>
         </div>
+
+        <div> <img class=report_photo id=conditioning_info src="img/Phtot/8.png" width=400px>
+ <img class=report_photo id=conditioning_info src="img/Phtot/9.png" width=400px> </div>
+
 
 
         <h2> Usability testing:</h2>
@@ -1851,7 +1832,7 @@
 
 
         <section class=report_content_grid>
-          <div> <img class=report_photo id=conditioning_info src="img/diagrams/7.png" height=400px> </div>
+          <div> <img class=report_photo_new id=conditioning_info src="img/diagrams/7.png" height=450px> </div>
           <div data-aos="fade-left" data-aos-delay="100" class=report_content_grid_text>
             <h3> Improved Pagenation </h3>
             <p> Improved pagination, by “dividing the content” (Affairs, A, nd) up clearer with the use of white space, and exact measurements of dividing elements e.g. all the buttons are the same size and even.
@@ -1868,7 +1849,7 @@
 
 
         <section class=report_content_grid>
-          <div> <img class=report_photo id=conditioning_info src="img/Capture.PNG" height=400px> </div>
+          <div> <img class=report_photo id=conditioning_info src="img/Capture.PNG" height=500px> </div>
           <div data-aos="fade-left" data-aos-delay="100" class=report_content_grid_text>
             <h3>Informational components </h3>
             <p> Explanatory text was provided to the user through the use of info-graphs to explain the concept. Info graphs are seen as effective as they “combine the written word with visual elements”, they allow information to be presented “in a
@@ -1898,7 +1879,6 @@
 
           <div> <img class=report_photo id=conditioning_info src="img/diagrams/10.png" height= 600px> </div>
 
-          <div> <img class=report_photo id=conditioning_info src="img/diagrams/11.png" height=600px> </div>
 
           <div> <img class=report_photo id=conditioning_info src="img/diagrams/11.png" height=600px> </div>
 
@@ -1929,6 +1909,9 @@
         <a href='https://harrisonkhannah924854.invisionapp.com/overview/Self-Reg-Wearable-ck1okxgzf2j6j01ajdz1u4coc/screens?v=5nF1YiVkFnHeteNs9xVTKg%3D%3D&linkshare=urlcopied'><button class = call_to_action_new>Link to Application</button></a>
 </div>
 
+<div> <img class=report_photo id=conditioning_info src="img/Phtot/2.jpg" width=400px>
+<img class=report_photo id=conditioning_info src="img/Phtot/4.jpg" width=400px> </div>
+
 
 
 
@@ -1940,7 +1923,7 @@
             <span id=strong_li> Feedback objectives:</span>
             <br><br>
             <ol>
-              <ul> Has our product decreased the anger, numbness and sadness while using this application? </ul> <br><br>
+              <li> Has our product decreased the anger, numbness and sadness while using this application? </li> <br><br>
               <li> Have we assisted regulation, while providing increased control? </li> <br><br>
               <li>Have we gained more ‘trust’ with the user? </li> <br><br>
               <li> Have we implemented more educational components into the product? </li> <br><br>
@@ -1954,11 +1937,12 @@
 
             <span id=strong_li> Core objectives:</span>
             <br><br>
+            <ol>
+              <li>
+            What was done well?<br><br> </li>
+        <li>    What was done poorly?<br><br> </li>
 
-            What was done well?<br><br>
-            What was done poorly?<br><br>
-
-            <span id=strong_li> Prototype selection: </span> <br><br> Due to the majority of our usability feedback being based of the lack of clarity, we improved the visual design by implementing a wireframe prototype.
+            <span id=strong_li> Prototype selection: </span> <br><br> <ol> <li> Due to the majority of our usability feedback being based of the lack of clarity, we improved the visual design by implementing a wireframe prototype. </ol> </li>
 
 
           </p>
@@ -2986,7 +2970,7 @@
             <p> Pagination has improved through the use of the 5 hat rack as previously discussed. Pagination was also improved by removing the invisibility of functions.
             </p>
           </div>
-          <div> <img class=report_photo id=conditioning_info src="img/i3/1.png" width=720px;> </div>
+          <div> <img class=report_photo id=conditioning_info src="img/i3/1.png" width=780px;> </div>
 
         </section>
 
@@ -3005,7 +2989,7 @@
             <h3> Code </h3>
             <p>As previously discussed the new product implements a coding system, this was suggested through heuristics. Its aim is to improve the co navigation of both the application and the wearable.</p>
           </div>
-          <div> <img class=report_photo id=conditioning_info src="img/i3/2.png" width=720px;> </div>
+          <div> <img class=report_photo id=conditioning_info src="img/i3/2.png" width=780px;> </div>
 
         </section>
 
@@ -3016,7 +3000,7 @@
             <p>Tool tips were implemented to solve the paradox of users needing more information but not wanting more information. As previously discussed, they take the form of a question mark.
             </p>
           </div>
-          <div> <img class=report_photo id=conditioning_info src="img/i3/3.png" width=720px;> </div>
+          <div> <img class=report_photo id=conditioning_info src="img/i3/3.png" width=780px;> </div>
 
         </section>
 
@@ -3026,7 +3010,7 @@
             <h3> Cards </h3>
             <p>The use of cards was implemented to create a more visually pleasing design, separating data for easier visual reading.</p>
           </div>
-          <div> <img class=report_photo id=conditioning_info src="img/i3/6.png" width=720px;> </div>
+          <div> <img class=report_photo id=conditioning_info src="img/i3/6.png" width=780px;> </div>
 
         </section>
 
@@ -3039,7 +3023,7 @@
             <p>Sliders were implemented from user feedback, for the new goal set up. This decreased cognitive load of the users and allowed input to be experienced in an enjoyable way.
             </p>
           </div>
-          <div> <img class=report_photo id=conditioning_info src="img/i3/5.png" width=720px;> </div>
+          <div> <img class=report_photo id=conditioning_info src="img/i3/5.png" width=780px;> </div>
 
         </section>
 
@@ -3062,7 +3046,7 @@
               transfer are provided progressively (step by step), hiding the previous input field, so users can have more privacy with the same amount of information, and increased clarity of the process.
             </p>
           </div>
-          <div> <img class=report_photo id=conditioning_info src="img/i3/4.png" width=720px;> </div>
+          <div> <img class=report_photo id=conditioning_info src="img/i3/4.png" width=780px;> </div>
 
         </section>
 
@@ -3116,12 +3100,13 @@
 
 
         <h2> Usability testing:</h2>
+        <div> 
+        <img class=report_photo id=conditioning_info src="img/Phtot/6.jpg" width=400px> </div>
+
+
 <h2> Family Interaction Wearable </h2>
-<iframe width="262" height="518" src="//invis.io/FUUI7NPQVJ5" frameborder="0" allowfullscreen></iframe>
 <h2> Application </h2>
-<iframe width="442" height="935" src="//invis.io/Z8UI77AGV4B" frameborder="0" allowfullscreen></iframe>
 <h2> Self Reg Wearable </h2>
-<iframe width="262" height="518" src="//invis.io/ERUI7OCWUFA" frameborder="0" allowfullscreen></iframe>
         <h3>Application – family:</h3>
         <div class=general_box_content>
           <p> <span id=strong_li> Overall all users were able to complete the application tasks in family regulation. </span> Satisfaction was low for task 2, 5 and 4 which was had the lowest satisfaction due to styling of the home screen. The
@@ -3865,13 +3850,13 @@ Therefore, the com-it was once just to commit to reduced spending, now it's comm
 
 
 <h2> Family Interaction Wearable </h2>
-<iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6SiWNdYQtROXEtFMnErKE7%2FFinal_HiFi%3Fnode-id%3D0%253A13421%26scaling%3Dmin-zoom" allowfullscreen></iframe>
+<iframe style="border: none;" width="200" height="300" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6SiWNdYQtROXEtFMnErKE7%2FFinal_HiFi%3Fnode-id%3D0%253A13421%26scaling%3Dmin-zoom" allowfullscreen></iframe>
 
 <h2> Self Regulation Wearable </h2>
-<iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6SiWNdYQtROXEtFMnErKE7%2FFinal_HiFi%3Fnode-id%3D0%253A12138%26scaling%3Dmin-zoom" allowfullscreen></iframe>
+<iframe style="border: none;" width="200" height="300" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6SiWNdYQtROXEtFMnErKE7%2FFinal_HiFi%3Fnode-id%3D0%253A12138%26scaling%3Dmin-zoom" allowfullscreen></iframe>
 
 <h2> Application </h2>
-<iframe style="border: none;" width="800" height="900" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6SiWNdYQtROXEtFMnErKE7%2FFinal_HiFi%3Fnode-id%3D0%253A2%26scaling%3Dmin-zoom" allowfullscreen></iframe>
+<iframe style="border: none;" width="400" height="900" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6SiWNdYQtROXEtFMnErKE7%2FFinal_HiFi%3Fnode-id%3D0%253A2%26scaling%3Dmin-zoom" allowfullscreen></iframe>
 
 
 <h2> Future Horizions: </h2>
@@ -3890,10 +3875,142 @@ Therefore, the com-it was once just to commit to reduced spending, now it's comm
 
 
 
+<h2> References: </h2>
+<div data-aos="fade-right" class=general_box_content>
+  <h3> Icons from The Noun Project </h3>
+  <p> Noun Project. Retrieved from https://thenounproject.com/ </p>
+  <h3> See Code for Nav Bar references and Video Playback Element </h3>
 
-              </section>
+<ol>
+ <li> Statistics on Gambling in Australia. Retrieved 18 August 2019, from http://www.problemgambling.net.au/ausgambling.html </li>
+
+ <li> Young, M. (2017). Three charts on: Australia’s addiction to poker machines [Blog]. Retrieved from https://theconversation.com/three-charts-on-australias-addiction-to-poker-machines-78353 </li>
+
+ <li> Sebag-Montefiore (2017). Why Australia has a serious gambling problem. Retrieved 31 August 2019, from https://edition.cnn.com/2017/08/28/health/australia-gambling-addiction-poker-slot-machines/index.html</li>
+
+ <li> Jazaeri, S. (2012). Reviewing Two Types of Addiction – Pathological Gambling and Substance Use. Retrieved 17 October 2019, from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3361844/</li>
+ <li> Lile, S. 44 Types of Graphs Perfect for Every Top Industry. Retrieved 17 October 2019, from https://visme.co/blog/types-of-graphs/</li>
+
+ <li> Making money tangible in a digital world. (2016). Retrieved 17 October 2019, from https://www.theappbusiness.com/insights/making-money-tangible-in-a-digital-world</li>
+
+ <li> Sharp, H., Preece, J., & Rogers, Y. (2019). Interaction design : Beyond human-computer interaction. Retrieved from http://ebookcentral.proquest.com Created from usyd on 2019-09-11 04:45:26.</li>
+
+ <li> Fishbein, M. (2014). 11 Ways Get Out of Bed Faster and Have More Energ. Retrieved 17 October 2019, from https://www.huffpost.com/entry/11-ways-get-out-of-bed-fa_b_4741041</li>
+
+ <li> Finlay, K. Assessing the Contribution of Gambling Venue Design Elements to Problem Gambling Behaviour. University of Guelph: Department of Consumer Studies. Retrieved from https://www.greo.ca/Modules/EvidenceCentre/files/Finlay%20et%20al(2006)Assessing_the_contribution_of_gambling_venue_design.pdf</li>
+
+ <li> Spickard Jr., M.D., A. (2017). They Won't Stop Because They Can't Stop. Retrieved 17 October 2019, from https://www.psychologytoday.com/us/blog/the-craving-brain/201708/they-wont-stop-because-they-cant-stop</li>
+
+ <li> Hall Ph.D., K. (2015). Practice Waiting. Retrieved 17 October 2019, from https://www.psychologytoday.com/au/blog/pieces-mind/201508/practice-waiting</li>
+
+ <li> Peterson Ph.D., C. (2011). The 24-Hour Rule. Retrieved 17 October 2019, from https://www.psychologytoday.com/us/blog/the-good-life/201108/dealing-e-mail-the-24-hour-rule</li>
+
+ <li> Lineaweaver, N. (2018). Baby boomers'​ appetite for Apple Watch 4 bodes well for Apple's senior-focused healthcare play. Retrieved 17 October 2019, from https://www.businessinsider.com/baby-boomers-appetite-for-apple-watch-4-2018-9/?r=AU&IR=T</li>
+
+ <li> Pierini, D. (2019). Apple Watch-Medicare deal could bring free watches to seniors. Retrieved 17 October 2019, from https://www.cultofmac.com/601090/apple-watch-medicare/</li>
+
+ <li> Tubik Studio, .. (2017). Tests Go First. Usability Testing in Design. Retrieved 17 October 2019, from https://uxplanet.org/tests-go-first-usability-testing-in-design-574ffa18d81</li>
+
+ <li> Nielsen, J. (2000). Why You Only Need to Test with 5 Users. Retrieved 17 October 2019, from https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/</li>
+
+ <li> Google for Startups. (2016). Rapid Prototyping 3 of 3: Native Prototyping [Video]. Retrieved from https://www.youtube.com/watch?v=lusOgox4xMI</li>
+
+ <li> Orton, K. (2017). Desirability, Feasibility, Viability: The Sweet Spot for Innovation. Retrieved 19 October 2019, from https://medium.com/innovation-sweet-spot/desirability-feasibility-viability-the-sweet-spot-for-innovation-d7946de2183c</li>
+
+ <li> Design Principles: Hierarchy of Information. (2013). Retrieved 19 October 2019, from http://www.bridgewaterlearning.co.za/2013/04/16/design-principles-hierarchy-of-information/</li>
+
+ <li> Ivanova, L. Top UI Design Principles To Keep In Mind. Retrieved 19 October 2019, from https://uxplanet.org/top-ui-design-principles-to-keep-in-mind-bfb3ad8790c6</li>
+
+ <li> Tran, T. (2019). 10 pros and cons of the hamburger menu (with examples) | Inside Design Blog. Retrieved 19 October 2019, from https://www.invisionapp.com/inside-design/pros-and-cons-of-hamburger-menus/</li>
+
+ <li> Affairs, A. User Interface Elements. Retrieved 19 October 2019, from https://www.usability.gov/how-to-and-tools/methods/user-interface-elements.html</li>
+
+ <li> User Interface Design Basics. (2019). Retrieved 19 October 2019, from https://www.usability.gov/what-and-why/user-interface-design.html</li>
+
+ <li> DE LA RIVA, M. (2019). 32 User Interface Elements For UI Designers: Your Ultimate Glossary. Retrieved 19 October 2019, from https://careerfoundry.com/en/blog/ui-design/ui-element-glossary/</li>
+
+ <li> Logo, O. (2018). THE 5 THING YOU MUST DO TO IMPROVE YOUR UI DESIGN. Retrieved 19 October 2019, from https://medium.com/@octalogo/the-5-thing-you-must-do-to-improve-your-ui-design-182097fb9d3e</li>
+
+ <li> Whitenton, K. (2018). The Two UX Gulfs: Evaluation and Execution. Retrieved 19 October 2019, from https://www.nngroup.com/articles/two-ux-gulfs-evaluation-execution/</li>
+
+ <li> TRUONG, K. (2018). Domestic Violence Has Been Linked To Big Sporting Events — Here's What You Need To Know. Retrieved 19 October 2019, from https://www.refinery29.com/en-us/domestic-violence-sports-events-study</li>
+
+ <li> Studio, T. (2017). Tests Go First. Usability Testing in Design. Retrieved 19 October 2019, from https://uxplanet.org/tests-go-first-usability-testing-in-design-574ffa18d81</li>
+
+ <li> Bethel Funerals, .. (2019). The 5 Stages of Grief and Self-Care. Retrieved 19 October 2019, from https://www.bethelfunerals.com.au/5-stages-of-grief-self-care/?gclid=Cj0KCQjwoqDtBRD-ARIsAL4pviDNlmhErkzckyuRQNhTS954CCf9eL6YktdVLUTZpSZ8nXRsbxIAqwMaAiqMEALw_wcB</li>
+
+ <li> Ross, K. The change curve. Retrieved 19 October 2019, from https://www.exeter.ac.uk/media/universityofexeter/humanresources/documents/learningdevelopment/the_change_curve.pdf</li>
 
 
+ <li> Morin, A. (2019). Improve Your Child's Behavior Problems With Positive Reinforcement. Retrieved 19 October 2019, from https://www.verywellfamily.com/positive-reinforcement-child-behavior-1094889</li>
+
+ <li> What Are Streaks and Why do They Work?. (2019). Retrieved 19 October 2019, from https://www.growthengineering.co.uk/what-are-streaks/</li>
+
+ <li> Benefits of Goal Setting. Retrieved 19 October 2019, from http://thepeakperformancecenter.com/development-series/skill-builder/personal-effectiveness/goal-setting/benefits-of-goal-setting/</li>
+
+ <li> Cherry, K. (2019). Positive Reinforcement Can Help Favorable Behaviors. Retrieved 19 October 2019, from https://www.verywellmind.com/what-is-positive-reinforcement-2795412</li>
+
+ <li> Jensen, K. (2014). Control Is Good, But Trust Is Cheaper. Retrieved 19 October 2019, from https://www.forbes.com/sites/keldjensen/2014/12/08/control-is-good-trust-is-cheaper/#101147411322</li>
+
+ <li> Smale, T. (2017). 5 Strategies for How to Make Customers Trust Your Brand. Retrieved 19 October 2019, from https://www.entrepreneur.com/article/289167</li>
+
+ <li> Sample Terms and Conditions Template. Retrieved 19 October 2019, from https://www.termsfeed.com/blog/sample-terms-and-conditions-template/</li>
+
+ <li> Reddy, C. Why Education is Important? Top 13 Reasons. Retrieved 19 October 2019, from https://content.wisestep.com/education-important-top-reasons/</li>
+
+ <li> Burgess, L. The Benefits of Personalisation. Retrieved 19 October 2019, from https://www.pure360.com/why-personalisation-is-important-what-7-statistics-tell-us/</li>
+
+ <li> Chambers, R. 10 steps for better website navigation. Retrieved 20 October 2019, from https://www.butterfly.com.au/blog/design/10-steps-for-better-website-navigation</li>
+
+ <li> Kalbach, J. Designing Web Navigation. Retrieved 20 October 2019, from https://www.oreilly.com/library/view/designing-web-navigation/9780596528102/ch04.html
+
+ <li> Why Infographics Are So Effective. Retrieved 20 October 2019, from https://missdetails.com/infographics-effective/</li>
+
+
+ <li> Design Principles: Hierarchy of Information. (2013). Retrieved 20 October 2019, from http://www.bridgewaterlearning.co.za/2013/04/16/design-principles-hierarchy-of-information/</li>
+
+ <li> Nielsen, J. (2000). Why You Only Need to Test with 5 Users. Retrieved 20 October 2019, from https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/</li>
+
+ <li> Australian Gambling Research Centre. (2017). What are electronic gambling machines?. [online] Available at: https://aifs.gov.au/agrc/publications/how-electronic-gambling-machines-work/what-are-electronic-gambling-machines [Accessed 7 Sep. 2019].</li>
+
+ <li> Aune Mentzoni, R. (2012). Structural Characteristics in Gambling. [online] Available at: https://pdfs.semanticscholar.org/8324/61add648778a22369a14923c99f9c5543e0b.pdf [Accessed 7 Sep. 2019].</li>
+
+ <li> Au.reachout.com. (2019). Addiction. [online] Available at: https://au.reachout.com/tough-times/addiction [Accessed 7 Sep. 2019].</li>
+
+ <li> Blaszczynski, A., Sharpe, L., Walker, M., Shannon, K. and Coughlan, M. (2005). Structural Characteristics of Electronic Gaming Machines and Satisfaction of Play Among Recreational and Problem Gamblers. International Gambling Studies, 5(2), pp.187-198. [Accessed 7 Sep. 2019].</li>
+ <li> Clark, L., Crooks, B., Clarke, R., Aitken, M. and Dunn, B. (2011). Physiological Responses to Near-Miss Outcomes and Personal Control During Simulated Gambling. Journal of Gambling Studies, 28(1), pp.123-137.[Accessed 11 Sep. 2019].</li>
+
+ <li> Dixon, M., Graydon, C., Harrigan, K., Wojtowicz, L., Siu, V. and Fugelsang, J. (2014). The allure of multi-line games in modern slot machines. Addiction, 109(11), pp.1920-1928.[Accessed 10 Sep. 2019]</li>
+
+ <li> Nytimes.com. (2019). Australians Are the World’s Biggest Gambling Losers, and Some Seek Action. [online] Available at: https://www.nytimes.com/2018/04/04/world/australia/australians-gambling-betting-machines.html [Accessed 11 Sep. 2019].</li>
+
+ <li> Park, C., Park, S., Gwak, A., Sohn, B., Lee, J., Jung, H., Choi, S., Kim, D. and Choi, J. (2015). The effect of repeated exposure to virtual gambling cues on the urge to gamble. Addictive Behaviors, 41, pp.61-64.[Accessed 11 Sep. 2019].</li>
+
+ <li> Qgso.qld.gov.au. (2016). Reports: Australian Gambling Statistics (QGSO, Queensland Treasury). [online] Available at: http://www.qgso.qld.gov.au/products/reports/aus-gambling-stats/ [Accessed 7 Sep. 2019].</li>
+
+ <li> Responsiblegambling.nsw.gov.au. (2014). [online] Available at: https://www.responsiblegambling.nsw.gov.au/__data/assets/pdf_file/0005/138119/impact-structural-characteristics-electronic-gaming-machines-2014.pdf [Accessed 7 Sep. 2019].</li>
+
+ <li> The Conversation. (2018). Australia has a long way to go on responsible gambling. [online] Available at: https://theconversation.com/australia-has-a-long-way-to-go-on-responsible-gambling-101320 [Accessed 7 Sep. 2019].</li>
+
+ <li> The Conversation. (2017). Three charts on: Australia's addiction to poker machines. [online] Available at: https://theconversation.com/three-charts-on-australias-addiction-to-poker-machines-78353 [Accessed 7 Sep. 2019].</li>
+
+ <li> Tomitsch, M. (2018). Design. Think. Make. Break. Repeat. Amsterdam: BIS Publishers BV.</li>
+
+ <li> What is Emotional Design?. Retrieved 29 October 2019, from https://www.interaction-design.org/literature/topics/emotional-design</li>
+
+ <li> Lidwell, W., Butler, J., & Holden, K. (2003). Universal principles of design. Gloucester, Mass.: Rockport.</li>
+
+ <li>  Tesla mobile app ui tutorial. Retrieved 1 November 2019, from https://dribbble.com/shots/6908388-Tesla-mobile-app-ui-tutorial</li>
+
+
+
+
+
+
+
+<a href= "task3-appendix.html">          <button class=call_to_action> Appendix </button> </a>
+
+</section>
 
 
 

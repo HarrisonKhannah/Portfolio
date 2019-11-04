@@ -28,6 +28,10 @@ max-width: 100%;
 min-width: 100%;
 }
 
+iframe{
+  margin-left: 40px;
+  margin-top: 30px;
+}
 
 .content {
   position: absolute;
@@ -38,6 +42,10 @@ min-width: 100%;
   padding: 50px;
 }
 
+#testing_div{
+  display: flex;
+  flex-direction: row;
+}
 
 .video_header{
 	font-family: 'Montserrat', sans-serif;
@@ -62,9 +70,16 @@ min-width: 100%;
 .buttons a {
 margin-right: 20px;
 }
+.appendix_a{
+  font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 500;
+	font-size: 1.5em;
+	color: white;
+
+}
 
 .call_to_action{
-	width: 15%;
+	width: auto;
 
 	padding: 10px 25px;
 	border: 0PX;
@@ -96,6 +111,13 @@ margin-right: 20px;
 
 }
 
+ol{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  color: white;
+
+}
 
 /* Generic Overview of the research section */
 .research_area{
@@ -158,6 +180,8 @@ border-left: 9px solid rgba(67, 206, 162,0.8);
 	font-size: 1.1em;
 	color: white;
 	margin-top: 20px;
+  /* margin-bottom: 20px; */
+
 
 }
 /* Text Entities within said element  */
@@ -168,7 +192,7 @@ border-left: 9px solid rgba(67, 206, 162,0.8);
 	margin-top: 10px;
 	letter-spacing: 2%;
 	padding-left: 50px;
-	padding-top: 50px;
+	padding-top: 20px;
 	padding-bottom: 10px;
 	color: white
 
@@ -205,7 +229,7 @@ border-left: 9px solid rgba(67, 206, 162,0.8);
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-left: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	color: white;
 	line-height: 1.6em;
 
@@ -435,5 +459,12 @@ text-align: center;}
 .report_photo{
 	margin-top: 40px;
 	margin-right: 50px;
+	/* box-shadow: 0 14px 28px rgba(0,0,0,3), 0 10px 10px rgba(0,0,0,3); */
+}
+
+.report_photo_new{
+	margin-top: 100px;
+  margin-left: 40px;
+
 	/* box-shadow: 0 14px 28px rgba(0,0,0,3), 0 10px 10px rgba(0,0,0,3); */
 }
