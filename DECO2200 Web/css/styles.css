@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 :root {
 	/* colors */
@@ -50,7 +54,14 @@ min-width: 100%;
 	padding-bottom: 15px;
 
 }
+.buttons{
+	display: flex;
+	flex-direction: row;
+}
 
+.buttons a {
+margin-right: 20px;
+}
 
 .call_to_action{
 	width: 15%;
@@ -67,6 +78,24 @@ min-width: 100%;
 	color: white;
 
 }
+
+
+.call_to_action_new{
+	width: 100%;
+
+	padding: 10px 25px;
+	border: 0PX;
+
+
+	border-radius: 10px;
+	background-image: linear-gradient(to right, rgba(67, 206, 162,0.8), rgba(24, 90, 157,0.8) );
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 500;
+	font-size: 1em;
+	color: white;
+
+}
+
 
 /* Generic Overview of the research section */
 .research_area{
@@ -288,8 +317,10 @@ margin: 50px 0px;
 
 .method_report_section{
 	display:grid;
-	grid-template-columns: 1fr 1fr;
-	margin: 40px 0px;
+	grid-template-columns: 0.5fr 0.5fr;
+	margin-left: 200px;
+	margin-right: 100px;
+
 }
 
 .survery_grid{
